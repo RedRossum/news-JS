@@ -21,10 +21,10 @@ const baseConfig = {
         ],
     },
     resolve: {
-        extensions: ['.js','.ts'],
+        extensions: ['.ts', '.js'],
     },
     output: {
-        filename: 'index.ts',
+        filename: 'index.js',
         path: path.resolve(__dirname, './dist'),
     },
     plugins: [
